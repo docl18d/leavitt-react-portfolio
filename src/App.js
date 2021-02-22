@@ -7,8 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         Adrein Leavitt
-         <br>Sergeant major (Special Forces, Retired), MSM, MBA</br>
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Enter If You Dare
+          Learn React
         </a>
       </header>
     </div>
