@@ -4,7 +4,9 @@ import "./style.css";
 function Footer() {
   return (
     <footer className="footer">
-      <span>Pupster 2017</span>
+      <span >
+        <p style={{ textAlign: "center" }}>Adrein Leavitt, 2021</p>
+        </span>
     </footer>
   );
 }

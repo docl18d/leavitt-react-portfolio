@@ -1,0 +1,14 @@
+font {
+  font-size: 35px;
+  padding-top: 100px;
+  margin-top: 0;
+  
+}
+
+p {
+  
+  font-size: 20px;
+  /* Bold the text. */
+  font-weight: normal;
+  margin-left: 15px;
+}
