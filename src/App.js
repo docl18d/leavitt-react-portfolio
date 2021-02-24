@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Homepage from "./pages/Homepage";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Book from "./pages/Book";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Adrein Leavitt - Sergeant Major (Special Forces, Retired), MSM, MBA
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Enter to see
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={Homepage} />
+          <Route exact path="/homepage" component={Homepage} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/book" component={Book} />
+          <Route exact path="/portfolio" component={Portfolio} />
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
