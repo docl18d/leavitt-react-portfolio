@@ -1,0 +1,30 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "<a href=\"https://github.com/docl18d\" style=\"float:right\"><img src=\"https://avatars.githubusercontent.com/u/68399114?v=4\" alt=\"docl18d\" title=\"docl18d\" width=\"120\" height=\"120\"></a>   # PORTFOLIO   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0   Repo by docl18d   my work",
+  "main": "server.js",
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docl18d/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docl18d/portfolio/issues"
+  },
+  "homepage": "https://github.com/docl18d/portfolio#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
