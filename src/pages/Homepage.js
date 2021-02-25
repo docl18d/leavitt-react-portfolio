@@ -5,11 +5,6 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import resume from "./images/leavitt.pdf";
 import background from "./images/1.jpeg";
-// import Button1 from "../components/Button1";
-// import IconButton from "@material-ui/core/iconButton";
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { Button } from "bootstrap";
-// import { faEmail, faPhone, faResume } from '@fortawesome/free-brands-svg-icons'
 
 function Homepage() {
   return (
