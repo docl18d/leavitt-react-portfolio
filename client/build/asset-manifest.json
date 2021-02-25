@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b001d5d8.chunk.css",
+    "main.js": "/static/js/main.a5bc0b8b.chunk.js",
+    "main.js.map": "/static/js/main.a5bc0b8b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/css/2.150d169a.chunk.css": "/static/css/2.150d169a.chunk.css",
+    "static/js/2.57dae40d.chunk.js": "/static/js/2.57dae40d.chunk.js",
+    "static/js/2.57dae40d.chunk.js.map": "/static/js/2.57dae40d.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.b001d5d8.chunk.css.map": "/static/css/main.b001d5d8.chunk.css.map",
+    "static/js/2.57dae40d.chunk.js.LICENSE.txt": "/static/js/2.57dae40d.chunk.js.LICENSE.txt",
+    "static/media/2.2a864ec0.jpg": "/static/media/2.2a864ec0.jpg",
+    "static/media/CC.ea1de09d.png": "/static/media/CC.ea1de09d.png",
+    "static/media/Chronos.f423fb69.pdf": "/static/media/Chronos.f423fb69.pdf",
+    "static/media/UofPx.65e84160.jpg": "/static/media/UofPx.65e84160.jpg",
+    "static/media/amu.b50ca623.png": "/static/media/amu.b50ca623.png",
+    "static/media/ball.adc4ecee.jpg": "/static/media/ball.adc4ecee.jpg",
+    "static/media/beach.2da30dc4.jpg": "/static/media/beach.2da30dc4.jpg",
+    "static/media/calm.2464741b.png": "/static/media/calm.2464741b.png",
+    "static/media/camilla.792b4d58.jpg": "/static/media/camilla.792b4d58.jpg",
+    "static/media/camp.ed6ec2ad.png": "/static/media/camp.ed6ec2ad.png",
+    "static/media/campbell.350fbb60.jpg": "/static/media/campbell.350fbb60.jpg",
+    "static/media/construction.2c5b2bd9.jpg": "/static/media/construction.2c5b2bd9.jpg",
+    "static/media/jts.a63ed84a.jpg": "/static/media/jts.a63ed84a.jpg",
+    "static/media/jump.6765551e.jpg": "/static/media/jump.6765551e.jpg",
+    "static/media/leavitt.3e00121e.pdf": "/static/media/leavitt.3e00121e.pdf",
+    "static/media/scuba.3c02a01f.jpg": "/static/media/scuba.3c02a01f.jpg",
+    "static/media/sniper.94ed8ec4.jpg": "/static/media/sniper.94ed8ec4.jpg",
+    "static/media/ssi.a4126997.png": "/static/media/ssi.a4126997.png",
+    "static/media/ts.8891093a.png": "/static/media/ts.8891093a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.57dae40d.chunk.js",
+    "static/css/main.b001d5d8.chunk.css",
+    "static/js/main.a5bc0b8b.chunk.js"
+  ]
+}
